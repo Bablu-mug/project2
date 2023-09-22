@@ -1,0 +1,297 @@
+/* common css start */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.align-center{
+    align-items: center;
+}
+.justify-center{
+    justify-content: center ;    
+}
+.button{
+    color: #0b1016;
+    text-transform: uppercase;
+    background-color: #cfc91d;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 19px 43px;
+}
+.heading{
+    padding: 100px 0 0 0;
+}
+.heading h2{
+    text-transform: uppercase;
+    font-size: 46px;
+    font-weight: 800;
+    color: #02918c;
+}
+.heading .p1{
+    font-size: 16px;
+    color: #7e8287;
+}
+/* common css end */
+
+
+
+
+/* nab start  */
+nav{
+    background-color: #02918c;
+}
+nav .logo{
+    width: 40%;
+}
+nav .menu{
+    width: 60%;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: white;
+    font-weight: 800;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 26px 25px;
+    display: inline-block;
+}
+/* nav end */
+
+#banner{
+    background-image: url(../image/man.jpg);
+    height: 733px;
+   background-size: cover;
+    
+}
+#banner .container,
+#banner .row{
+    height: 100%;
+}
+.banner-cnt{
+    text-align: center;
+    color: white;
+}
+.banner-cnt h4{
+    font-size: 30px;
+}
+.banner-cnt h1{
+    font-size: 68px;
+    letter-spacing: 32px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+.banner-cnt p{
+    font-size: 18px;
+}
+.banner-cnt img{
+    margin: 52px;
+}
+/* about css start */
+#about{
+    text-align: center;
+}
+.heading .p1{
+    font-size: 16px;
+    color: #7e8287;
+    padding-bottom: 71px;
+}
+.heading .p1 span{
+    font-weight: 800;
+    font-size: 23px;
+    line-height: 50px;
+}
+
+.about-card{
+    width: 25%;
+    margin-bottom: 100px;
+    border-right: 1px solid #ccc;
+    padding: 30px 0;
+
+}
+.about-card i{
+    color: #28a19d;
+    font-size: 30px;
+}
+.about-card h4{
+    font-size: 16px;
+    font-weight: 800;
+    color: #7e8287;
+    padding: 29px 0;
+}
+.about-card p{
+    font-size: 11px;
+    color: #7e8287;
+}
+.about-card:last-child{
+    border: none;
+}
+#about p{
+    padding: 15px 0;
+}
+#about .p1{
+    padding-bottom: 20px;
+}
+
+
+/* about css end */
+
+/* services css start */
+#services{
+  background-image: url(../image/service.jpg);
+  width: 100%;
+  height: 728px;
+  background-size: cover;
+
+}
+.service-part{
+    width: 50%;
+}
+#services .about-card h4{
+    padding: 17px 0 19px 0;
+}
+#services .about-card{
+    width: 50%;
+    border: none;
+    margin-bottom: 0;
+}
+
+#services .p1{
+    padding-bottom: 30px;
+}
+#services p{
+    padding: 11px 0;
+}
+/* services css end */
+
+/* my work css start */
+#work .work-card{
+    width: 25%;
+    position: relative;
+}
+
+#work .work-card img{
+    width: 100%;
+    height: 100%; 
+}
+#work .heading .p1{
+    padding-bottom: 82px;
+}
+#work .heading{
+    text-align: center;
+}
+#work .heading .p1{
+    line-height: 25px;
+}
+#work .overlay{
+    position: absolute;
+    inset: 20px;
+    background-color: #02918c96;
+    padding:30px 20px;
+    transform: scale(0);
+    transition: 0.35s;
+    opacity: 0;
+}
+#work .work-card:hover .overlay{
+  transform: scale(1);
+  opacity: 1;  
+}
+
+#work .overlay h4{
+    padding: 20px;
+    color: white;
+    font-weight: 800px;
+}
+
+
+#work .overlay p{
+    color: white;
+
+}
+#work p{
+    padding: 15px 0;
+}
+/* my work css end */
+/* contact css start */
+#contact .heading{
+    text-align: center;
+}
+#contact .heading .p1{
+    padding-bottom: 20px;
+}
+#contact .heading p{
+    padding: 15px 0;
+}
+#contact .contact-bottom{
+   background-color: #0b0b0b; 
+   padding: 69px 0;
+   margin-top: 70px;
+}
+#contact .form-input{
+    width: 638px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.form-input input{
+    width: 638px;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 16px; 
+}
+#contact .form-input1{
+    width: 917px;
+    margin: auto;
+    margin-bottom: 60px;
+}
+.form-input1 input{
+    width: 917px;
+    background-color: transparent;
+    text-align: center;
+    border: none;
+    border-bottom: 2px solid white;
+    outline: none;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 16px; 
+}
+ 
+#contact  .btn{
+    margin-top: 40px;
+    text-align: center;
+}
+.fotter{
+    background-color: black;
+    text-align: center;
+    color: #7e8287;
+    padding: 30px 0;
+}
+
+/* contact css end */
+
